@@ -20,10 +20,10 @@ Route table
 
 
 |  METHOD      |Endpoint                     |Key                      | Description
-|----------------|-------------------------------|-----------------------------|------------------------|
+|----------------|---------------------------------------|-----------------------------|-----------------------------|
 |GET|    /       |  | homepage
 |POST       |/registration            |      username, password | new user registration| 
-|GET          |/login|login_username,login_password| registered user login|
+|GET          |/login?login_username= &login_password= |login_username,login_password| registered user login|
 |GET|/posts            |-         |get all the posts for the user|
 |GET         |/posts/:id         |-           |get post by id for the user|
 |POST         |/posts|post|create new post
