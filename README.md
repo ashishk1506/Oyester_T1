@@ -5,6 +5,7 @@
 
 - routings for registration page & login Page
 - CRUD routing operation
+- using JWT token as cookies to secure endpoints 
 
 ## TechStack
 - [node.js] - evented I/O for the backend
